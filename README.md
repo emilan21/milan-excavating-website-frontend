@@ -1,2 +1,2 @@
-# emilan-website
-Static website for resume
+# milan-excavating-website
+Static website for Milan Excavating
