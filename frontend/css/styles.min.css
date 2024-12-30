@@ -1,11 +1,53 @@
+:root {
+  --excavator-yellow: #FFCC00;
+  --construction-orange: #FF6600;
+  --dark-steel-grey: #333333;
+  --earth-brown: #7B4B3A;
+  --lime-green: #A9E84B;
+  --concrete-gray: #B4B8B1;
+}
+
 body {
-	background-color: #F0EBCE;
+	font-family: Arial, sans-serif;
+	color: var(--concrete-gray);
+	background-color: var(--dark-steel-grey);
 	padding-top:100px;
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-
 }
+
+header {
+  background-color: var(--excavator-yellow);
+  padding: 10px 0;
+  color: var(--dark-steel-grey);
+}
+
+button {
+  background-color: var(--construction-orange);
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: var(--lime-green);
+}
+
+footer {
+  background-color: var(--earth-brown);
+  padding: 20px;
+  text-align: center;
+  color: var(--concrete-gray);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height 20;
+  font-size: 11;
+}
+
+
 
 html {
 	margin: 0;
@@ -32,19 +74,19 @@ section {
 /* headers */
 h1 {
   font-size: 60px;
-  color: #AA8B56;
+  color: #B4B8B1;
 }
 
 h2 {
   font-size: 48px;
-  color: #AA8B56;
+  color: #B4B8B1;
 }
 
 h3 {
   font-size: 30px;
   margin:0;
   padding:0;
-  color: #AA8B56;
+  color: #B4B8B1;
 
 }
 
@@ -52,7 +94,7 @@ h4 {
   font-size: 24px;
   margin:0;
   padding:0;
-  color: #AA8B56;
+  color: #B4B8B1;
 }
 
 /* same line alignment */
@@ -66,7 +108,7 @@ h4 {
 /* navbar */
 .navbar {
   overflow: hidden;
-  background-color: #395144;
+  background-color: var(--excavator-yellow);
   position: fixed;
   top: 0;
   width: 100%;
@@ -83,10 +125,10 @@ h4 {
 }
 
 .navbar a:hover {
-  background-color: #4E6C50;
+  background-color: var(--construction-orange);
 }
 
 /* color of dates */
 .dates {
-  color: #4E6C50;
+  color: var(--lime-green);
 }
